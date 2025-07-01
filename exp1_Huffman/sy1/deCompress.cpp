@@ -15,8 +15,10 @@ void deCompress(const char* filename2) {
 
     RebuildHuffmanTree(HT, head.weight);
     //TestHuffTree(HT);
-
-    Decode(filename2, "F:/output.bmp", HT, head.length);
+    char filename3[256];
+    printf("请输入生成解压文件路径（以.bmp为后缀）：");
+    scanf("%s", filename3);
+    Decode(filename2, filename3, HT, head.length);
 
 }
 bool ReadHead(const char* pfilename, HEAD& head) {

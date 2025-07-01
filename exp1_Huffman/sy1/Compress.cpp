@@ -18,15 +18,15 @@ void Compress(const char* filename) {
 	}
 	//printf("%d\n", len1);
 	fclose(in);
-	TestWeight(xweight);
+	//TestWeight(xweight);
 
 	HuffmanTree HT = new HTNode[511];
 	CreatHuffmanTree(HT, xweight);
-	TestHuffTree(HT);
+	//TestHuffTree(HT);
 
 	char codes[256][256];
 	CreatHuffmanCode(HT, codes);
-	Codetest(codes);
+	//Codetest(codes);
 
 	int nSize = 0;
 	for (int i = 0; i < 256; i++) {
