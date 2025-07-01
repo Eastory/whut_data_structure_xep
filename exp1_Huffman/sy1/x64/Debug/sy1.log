@@ -1,0 +1,8 @@
+﻿  Compress.cpp
+C:\Users\Eastory\Desktop\sjjgsy\Whut_data_structure_exp\exp1_Huffman\sy1\Compress.cpp(33,23): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Eastory\Desktop\sjjgsy\Whut_data_structure_exp\exp1_Huffman\sy1\Compress.cpp(128,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  deCompress.cpp
+  Huffman.cpp
+  Main.cpp
+  正在生成代码...
+  sy1.vcxproj -> C:\Users\Eastory\Desktop\sjjgsy\Whut_data_structure_exp\exp1_Huffman\x64\Debug\sy1.exe
